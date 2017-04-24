@@ -1,0 +1,24 @@
+//This challenge can be solved with the .endsWith() method, which was introduced in ES2015. 
+//But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
+//Here are some helpful links:
+    //String.prototype.substr()
+    //String.prototype.substring()
+    
+************************************************************
+
+function confirmEnding(str, target) {
+  // "Never give up and good luck will find you."
+  // -- Falcor
+  var ran = target.length;
+  
+  if(str.substr(str.length-ran) === target){
+    return true;
+  } else {
+           return false;
+  }
+  //return str;
+}
+
+confirmEnding("Bastian", "n");
+Note: know more about the substr()!!
+    
