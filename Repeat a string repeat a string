@@ -1,0 +1,14 @@
+
+
+
+function repeatStringNumTimes(str, num) {
+  // repeat after me
+  var repeatNum = "";
+     while(num > 0){          //here the while look ends when the "num" becomes 0 & does not excute the return statement!
+       repeatNum += str;
+       num--;
+     }
+  return repeatNum;
+}
+
+repeatStringNumTimes("abc", 3);
